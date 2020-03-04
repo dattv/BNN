@@ -16,4 +16,4 @@ an example</a> inline link.</p>
 
 
 
-[include](https://github.com/dattv/BNN/blob/master/CNN_classification/README.md)
+[include]: https://github.com/dattv/BNN/blob/master/CNN_classification/README.md 
