@@ -30,7 +30,7 @@ flags.DEFINE_string('data_dir',
 flags.DEFINE_string(
     'model_dir',
     default=os.path.join(os.getenv('TEST_TMPDIR', './model'),
-                         'bayesian_neural_network_MNIST/'),
+                         'MNIST/'),
     help="Directory to put the model's fit.")
 flags.DEFINE_integer('viz_steps',
                      default=400,
@@ -139,11 +139,11 @@ def main(argv):
 
     temp_key = [key for key in endpoints.keys()]
     for key in temp_key[0:5]:
-
         tf.summary.image(key, tf.expand_dims(endpoints[key][:, :, :, 0], axis=3), FLAGS.batch_size)
 
-
     merged = tf.summary.merge_all()
+
+    saver = tf.train.Saver()
 
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
@@ -170,6 +170,12 @@ def main(argv):
 
                 file_train_writer.add_summary(train_merged_info, epoch_id)
                 file_test_writer.add_summary(test_merged_info, epoch_id)
+
+                saver.save(sess, save_path=FLAGS.model_dir + "/" + os.path.split(__file__.split(".")[0])[1],
+                           global_step=epoch_id)
+
+        saver.save(sess, save_path=FLAGS.model_dir + "/" + os.path.split(__file__.split(".")[0])[1],
+                   global_step=epoch_id)
 
 
 if __name__ == '__main__':
