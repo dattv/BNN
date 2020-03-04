@@ -11,7 +11,7 @@ requirement:
 4. Matplotlib
  
 
-cat https://github.com/dattv/BNN/blob/master/CNN_classification/README.md | markdown_py 
+cat https://github.com/dattv/BNN/blob/master/CNN_classification/README.md  
 
 
 
