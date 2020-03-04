@@ -11,7 +11,7 @@ requirement:
 4. Matplotlib
  
 
-cat https://github.com/dattv/BNN/blob/master/CNN_classification/README.md  
+!INCLUDE  "https://github.com/dattv/BNN/blob/master/CNN_classification/README.md"  
 
 
 
