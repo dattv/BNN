@@ -38,7 +38,7 @@ flags.DEFINE_integer('viz_steps',
 
 flags.DEFINE_integer('epochs',
                      default=5000,
-                     'number of maximum epochs')
+                     help='number of maximum epochs')
 
 FLAGS = flags.FLAGS
 
@@ -54,7 +54,7 @@ def get_data():
     if os.path.isdir(FLAGS.data_dir) == False:
         os.mkdir(FLAGS.data_dir)
 
-    data_dir = os.path.join(FLAGS.data_dir, __file__.split(".")[0])
+    data_dir = os.path.join(FLAGS.data_dir, os.path.split(__file__.split(".")[0])[1])
     if os.path.isdir(data_dir) == False:
         os.mkdir(data_dir)
 
