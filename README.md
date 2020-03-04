@@ -11,7 +11,7 @@ requirement:
 4. Matplotlib
  
 
-{{https://github.com/dattv/BNN/blob/master/CNN_classification/README.md"}}  
+{{https://github.com/dattv/BNN/blob/master/CNN_classification/README.md}}  
 
 
 
