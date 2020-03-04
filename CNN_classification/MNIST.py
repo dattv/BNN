@@ -64,6 +64,7 @@ def get_data():
 
     return mnist_train, mnist_test
 
+
 def CNN_base(input_tf, hold_prob, is_training=True):
     """
 
@@ -72,15 +73,35 @@ def CNN_base(input_tf, hold_prob, is_training=True):
     :param is_training:
     :return:
     """
-    out = tf.layers.Conv2D(filters=32, kernel_size=5, padding="SAME", activation=tf.nn.relu)(input_tf)
+    endpoints = {}
+    input_reshape = tf.reshape(input_tf, shape=[-1, 28, 28, 1], name="input_reshape")
+    endpoints[input_reshape.name] = input_reshape
+
+    out = tf.layers.Conv2D(filters=32, kernel_size=5, padding="SAME", activation=tf.nn.relu)(input_reshape)
+    endpoints[out.name] = out
+
     out = tf.layers.MaxPooling2D(pool_size=[2, 2], strides=[2, 2], padding="SAME")(out)
+    endpoints[out.name] = out
+
     out = tf.layers.Conv2D(filters=64, kernel_size=5, padding="SAME", activation=tf.nn.relu)(out)
+    endpoints[out.name] = out
+
     out = tf.layers.MaxPooling2D(pool_size=[2, 2], strides=[2, 2], padding="SAME")(out)
+    endpoints[out.name] = out
+
     out = tf.layers.Flatten()(out)
+    endpoints[out.name] = out
+
     out = tf.layers.Dense(units=1024, activation=tf.nn.relu)(out)
+    endpoints[out.name] = out
+
     out = tf.layers.Dropout(rate=hold_prob)(out)
+    endpoints[out.name] = out
+
     out = tf.layers.Dense(units=10)(out)
-    return out
+    endpoints[out.name] = out
+
+    return out, endpoints
 
 
 def main(argv):
@@ -92,12 +113,12 @@ def main(argv):
     mnist_train, mnist_test = get_data()
 
     #
-    x = tf.placeholder(tf.float32, shape=[None, 28, 28, 1])
-    y_true = tf.placeholder(tf.float32, shape=[None, 10])
-    hold_prob = tf.placeholder(tf.float32)
+    x = tf.placeholder(tf.float32, shape=[None, 784], name="x")
+    y_true = tf.placeholder(tf.float32, shape=[None, 10], name="y_true")
+    hold_prob = tf.placeholder(tf.float32, name="hold_prob")
 
     # model
-    y_pred = CNN_base(input_tf=x, hold_prob=hold_prob, is_training=True)
+    y_pred, endpoints = CNN_base(input_tf=x, hold_prob=hold_prob, is_training=True)
 
     # loss
     cross_entropy = tf.reduce_mean(
@@ -108,9 +129,47 @@ def main(argv):
     optimizer = tf.train.AdamOptimizer(learning_rate=1.e-3)
     train_op = optimizer.minimize(cross_entropy)
 
+    matches = tf.equal(tf.argmax(y_pred, 1), tf.argmax(y_true, 1))
+    acc = tf.reduce_mean(tf.cast(matches, tf.float32))
+
+    acc_summary = tf.summary.scalar(tensor=acc, name="acc_summary")
+    loss_summary = tf.summary.scalar(tensor=cross_entropy, name="loss_cross_entropy")
+    for var in tf.trainable_variables():
+        tf.summary.histogram(var.name, var)
+
+    temp_key = [key for key in endpoints.keys()]
+    for key in temp_key[0:5]:
+
+        tf.summary.image(key, tf.expand_dims(endpoints[key][:, :, :, 0], axis=3), FLAGS.batch_size)
+
+
+    merged = tf.summary.merge_all()
+
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
 
+        file_train_writer = tf.summary.FileWriter(FLAGS.model_dir + "/train", sess.graph)
+        file_test_writer = tf.summary.FileWriter(FLAGS.model_dir + "/test")
+
+        for epoch_id in range(FLAGS.epochs):
+            batch_x, batch_y = mnist_train.next_batch(FLAGS.batch_size)
+            sess.run(train_op, feed_dict={x: batch_x,
+                                          y_true: batch_y,
+                                          hold_prob: 0.5})
+
+            # PRINT OUT A MESSAGE EVERY 100 STEPS
+            if epoch_id % 500 == 0:
+                train_merged_info = sess.run(merged, feed_dict={x: batch_x,
+                                                                y_true: batch_y,
+                                                                hold_prob: 0.5})
+
+                np_acc, test_merged_info = sess.run([acc, merged], feed_dict={x: mnist_test.images,
+                                                                              y_true: mnist_test.labels,
+                                                                              hold_prob: 1.0})
+                print('Step {}: accuracy={}'.format(epoch_id, np_acc))
+
+                file_train_writer.add_summary(train_merged_info, epoch_id)
+                file_test_writer.add_summary(test_merged_info, epoch_id)
 
 
 if __name__ == '__main__':
