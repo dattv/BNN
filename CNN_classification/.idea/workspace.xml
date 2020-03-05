@@ -1,43 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73a576a1-c13e-4132-9d1d-4a756b39b327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cifar10.py" afterDir="false" />
+    <list default="true" id="73a576a1-c13e-4132-9d1d-4a756b39b327" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-0.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-0.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-0.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1500.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1500.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1500.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2500.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2500.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2500.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3500.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3500.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3500.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4500.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4500.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4500.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4999.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4999.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4999.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-500.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-500.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-500.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST_BNN/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cifar10.py" beforeDir="false" afterPath="$PROJECT_DIR$/cifar10.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MNIST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+            <state relative-caret-position="3363">
+              <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -62,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cifar10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="285">
+              <caret line="249" column="30" lean-forward="true" selection-start-line="249" selection-start-column="30" selection-end-line="249" selection-end-column="30" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -110,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +97,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,19 +264,40 @@
       <option name="project" value="LOCAL" />
       <updated>1583404160010</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1583405917843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583405917843</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1583405975244</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583405975244</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1583405994070</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583405994070</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4454638" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46585116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39959225" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,6 +306,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -419,10 +407,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/py35/lib/python3.7/tarfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="1980" column="42" selection-start-line="1980" selection-start-column="35" selection-end-line="1980" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MNIST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        <state relative-caret-position="3363">
+          <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -431,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cifar10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="285">
+          <caret line="249" column="30" lean-forward="true" selection-start-line="249" selection-start-column="30" selection-end-line="249" selection-end-column="30" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
