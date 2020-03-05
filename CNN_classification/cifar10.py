@@ -270,17 +270,15 @@ def main(argv):
                                                                 y_true: batch[1],
                                                                 hold_prob: 0.5})
 
-                X = d.test.images.reshape(100, 100, 32, 32, 3)
-                Y = d.test.labels.reshape(100, 100, 10)
-                np_acc = np.mean([sess.run(acc, feed_dict={x: X[i],
-                                                           y_true: Y[i],
-                                                           hold_prob: 1.0}) for i in
-                                  range(100)])
+                X = d.test.images.reshape(10000, 32, 32, 3)
+                Y = d.test.labels.reshape(10000, 10)
+                np_acc = sess.run(acc, feed_dict={x: X,
+                                                  y_true: Y,
+                                                  hold_prob: 1.0})
 
-                test_merged_info = np.mean([sess.run(merged, feed_dict={x: X[i],
-                                                                        y_true: Y[i],
-                                                                        hold_prob: 1.0}) for i in
-                                            range(100)])
+                test_merged_info = sess.run(merged, feed_dict={x: X,
+                                                               y_true: Y,
+                                                               hold_prob: 1.0})
 
                 print('Step {}: accuracy={}'.format(epoch_id, np_acc))
 
