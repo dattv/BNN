@@ -1,39 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73a576a1-c13e-4132-9d1d-4a756b39b327" name="Default Changelist" comment="update">
+    <list default="true" id="73a576a1-c13e-4132-9d1d-4a756b39b327" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-0.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-0.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-0.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-1000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-1000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-1000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-1500.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-1500.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-1500.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-2000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-2000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-2000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-2500.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-2500.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-2500.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-3000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-3000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-3000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-3500.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-3500.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-3500.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-4000.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-4000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-4000.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-4500.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-4500.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-4500.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-500.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-500.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/MNIST-500.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MNIST/checkpoint" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +12,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MNIST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="847">
               <caret line="173" column="44" lean-forward="true" selection-start-line="173" selection-start-column="44" selection-end-line="173" selection-end-column="44" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -64,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MNIST_bayesian.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -102,6 +71,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>model_dir</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -143,7 +117,19 @@
             <path>
               <item name="CNN_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNN_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="MNIST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNN_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNN_classification" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CNN_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CNN_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="MNIST" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,11 +222,26 @@
       <option name="project" value="LOCAL" />
       <updated>1583357103269</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1583357442255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583357442255</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1583357522583</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583357522583</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -329,16 +330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="173" column="44" lean-forward="true" selection-start-line="173" selection-start-column="44" selection-end-line="173" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -352,9 +343,19 @@
     <entry file="file://$PROJECT_DIR$/MNIST_bayesian.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="173" column="44" lean-forward="true" selection-start-line="173" selection-start-column="44" selection-end-line="173" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
