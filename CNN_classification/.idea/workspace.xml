@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73a576a1-c13e-4132-9d1d-4a756b39b327" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-0.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-0.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1500.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1500.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-1500.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2500.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2500.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-2500.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3500.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3500.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-3500.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4500.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4500.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4500.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4999.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4999.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-4999.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-500.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-500.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/MNIST_bayesian-500.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/MNIST_BNN/checkpoint" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MNIST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="847">
-              <caret line="173" column="44" lean-forward="true" selection-start-line="173" selection-start-column="44" selection-end-line="173" selection-end-column="44" />
+            <state relative-caret-position="378">
+              <caret line="182" selection-start-line="105" selection-end-line="182" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -36,11 +71,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MNIST_bayesian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="264">
+              <caret line="176" column="66" selection-start-line="176" selection-start-column="66" selection-end-line="176" selection-end-column="66" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="57">
+                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/envs/py35/lib/python3.7/site-packages/tensorflow_probability/python/layers/conv_variational.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="1575" selection-start-line="1575" selection-end-line="1575" />
             </state>
           </provider>
         </entry>
@@ -83,9 +139,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/MNIST_bayesian.py" />
         <option value="$PROJECT_DIR$/MNIST.py" />
+        <option value="$PROJECT_DIR$/MNIST_bayesian.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -112,24 +168,13 @@
             <path>
               <item name="CNN_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNN_classification" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNN_classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNN_classification" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CNN_classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CNN_classification" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CNN_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="CNN_classification" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST" type="462c0819:PsiDirectoryNode" />
+              <item name="MNIST_BNN" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.MNIST_bayesian">
     <configuration name="MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CNN_classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,8 +229,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MNIST_bayesian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CNN_classification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MNIST_bayesian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MNIST_bayesian" />
         <item itemvalue="Python.MNIST" />
       </list>
     </recent_temporary>
@@ -236,7 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583357522583</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1583403035467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583403035467</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1583403715443</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583403715443</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -330,33 +411,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/MNIST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="182" selection-start-line="105" selection-end-line="182" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/py35/lib/python3.7/site-packages/tensorflow_probability/python/layers/conv_variational.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="1575" selection-start-line="1575" selection-end-line="1575" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MNIST_bayesian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="264">
+          <caret line="176" column="66" selection-start-line="176" selection-start-column="66" selection-end-line="176" selection-end-column="66" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="173" column="44" lean-forward="true" selection-start-line="173" selection-start-column="44" selection-end-line="173" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
